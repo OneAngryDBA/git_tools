@@ -1,0 +1,1 @@
+git config gitflow.prefix.versiontag '`date "+%Y.%m.%d."`'
