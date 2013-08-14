@@ -1,4 +1,4 @@
-#!/bin/bash
+#! /usr/bin/env bash
 
 git config gitflow.prefix.versiontag '`date "+%Y.%m.%d."`';
 git config --local gitflow.feature.start.fetch no
