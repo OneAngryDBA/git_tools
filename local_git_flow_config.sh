@@ -1,6 +1,6 @@
 #! /usr/bin/env bash
 
-git config gitflow.prefix.versiontag '`date "+%Y.%m.%d."`';
+# git config gitflow.prefix.versiontag '`date "+%Y.%m.%d."`';
 git config --local gitflow.feature.start.fetch no
 git config --local gitflow.feature.finish.fetch no
 git config --local gitflow.hotfix.start.fetch no
