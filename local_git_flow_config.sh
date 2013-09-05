@@ -3,6 +3,8 @@
 # git config gitflow.prefix.versiontag '`date "+%Y.%m.%d."`';
 git config --local gitflow.feature.start.fetch no
 git config --local gitflow.feature.finish.fetch no
+git config --local gitflow.feature.finish.rebase no
+git config --local gitflow.feature.finish.preserve.merges no
 git config --local gitflow.hotfix.start.fetch no
 git config --local gitflow.hotfix.finish.fetch no
 git config --local gitflow.hotfix.finish.push no
